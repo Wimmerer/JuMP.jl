@@ -14,7 +14,6 @@ OptimizeNotCalled
 
 ```@docs
 termination_status
-MOI.TerminationStatusCode
 raw_status
 result_count
 ```
@@ -25,7 +24,6 @@ result_count
 primal_status
 has_values
 value
-MOI.ResultStatusCode
 ```
 
 ## Dual solutions
@@ -54,13 +52,8 @@ node_count
 ## [Conflicts](@id ref_conflicts)
 
 ```@docs
-JuMP.compute_conflict!
-MOI.compute_conflict!
-MOI.ConflictStatus
-MOI.ConflictStatusCode
-MOI.ConstraintConflictStatus
-MOI.ConflictParticipationStatusCode
-JuMP.copy_conflict
+compute_conflict!
+copy_conflict
 ```
 
 ## Sensitivity
